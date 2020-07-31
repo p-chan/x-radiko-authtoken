@@ -1,6 +1,7 @@
 {
   "extends": "@p-chan/tsconfig",
   "compilerOptions": {
+    "target": "ES5",
     "declaration": true,
     "outDir": "./dist",
     "baseUrl": "./"
