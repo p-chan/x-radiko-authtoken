@@ -2,6 +2,12 @@
 
 > A Library to get a valid x-radiko-authtoken
 
+## Install
+
+```shell
+$ npm install x-radiko-authtoken
+```
+
 ## Usage
 
 ```js
