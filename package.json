@@ -4,12 +4,15 @@
   "description": "A Library to get a valid x-radiko-authtoken",
   "license": "MIT",
   "author": "P-Chan",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "format": "prettier --write ./**/*.{js,ts}"
+    "format": "prettier --write **/*.{js,ts}"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0"
