@@ -2,6 +2,13 @@
   "name": "x-radiko-authtoken",
   "version": "0.1.0",
   "description": "A Library to get a valid x-radiko-authtoken",
+  "keywords": [
+    "radiko"
+  ],
+  "homepage": "https://github.com/p-chan/x-radiko-authtoken",
+  "bugs": {
+    "url": "https://github.com/p-chan/x-radiko-authtoken/issues"
+  },
   "license": "MIT",
   "author": "P-Chan",
   "files": [
@@ -9,6 +16,10 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-chan/x-radiko-authtoken.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
